@@ -1,4 +1,4 @@
 # Collage work
-Hello everyone i am karan bhatt.
+Hello everyone, I am <b>Karan Bhatt.</b>
 <br>
 It's all my collage work. 
