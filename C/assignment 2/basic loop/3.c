@@ -4,7 +4,7 @@ int main()
 {
     int i , sum;
     
-    for(i=1; i<=10; i++){
+    for(i=1; i<=10; i = i+1){
         
          sum=10*i;
         
