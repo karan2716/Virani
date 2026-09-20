@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overflow</title>
+    <style>
+
+        div{
+            height:50px;
+            width:50px;
+            border-style:solid;
+            border-color: blue;
+            border-width: 5px;
+        }
+
+        #scroll{
+            overflow:scroll;
+        
+        }
+
+        #hidden{
+            overflow:hidden;
+            white-space:nowrap;
+            text-overflow: ellipsis;
+        }
+
+        #visible{
+            overflow: visible;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="scroll">My Name Is Karan B. Bhatt. I Am Studing BCA In S.V. Virani Collage.</div>
+    <div id="hidden">Har har Mahadev</div>
+    <div id="visible">My Name Is Karan B. Bhatt. I Am Studing BCA In S.V. Virani CollageMy Name Is Karan B. Bhatt. I Am Studing BCA In S.V. Virani Collage</div>
+</body>
+</html>

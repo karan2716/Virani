@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    box-sizing:border-box;
+}
+
+#heading{
+    background-color: #241401;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    height: 120px;
+    border-bottom:solid goldenrod 6px;
+}
+
+h1{
+    padding-top: 27px;
+    letter-spacing: 5px;
+}
+
+#line{
+    padding-top: 10px;
+    letter-spacing: 2px;
+}
+
+#coffee{
+    height: 500px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    background-image: url(assets/download.webp);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;        
+}
+
+#cup{
+    padding-top: 180px;
+    
+}
+
+.cid{
+    height: 350px;
+    background-color: wheat;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5px;
+    color: #241401;
+}
+
+#border{
+    border: solid;
+    border-color: #241401;
+    margin-left: 75px;
+    margin-right: 75px;
+    padding: 50px;
+    background-color: white;
+    position: relative;
+    top: 30px;
+}
+
+#menu{
+    height: 500px;
+    width: 100%;
+    background-color: antiquewhite;
+    text-align: center;
+    color: #241401;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+
+#pic{
+    border: solid white;
+    background-image: url(assets/download.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 310px;
+    width: 200px;
+    color: white;
+    margin-left: 65px;
+    position: relative;
+    left: 100px;
+    top: 30px;
+    
+}
+
+#pic2{
+    border: solid white;
+    background-image: url(assets/images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 310px;
+    width: 200px;
+    color: white;
+    margin-left: 65px;
+    position: relative;
+    bottom: 320px;
+    left: 500px;
+}
+
+#pic3{
+    border: solid white;
+    background-image: url(assets/images\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 310px;
+    width: 200px;
+    color: white;
+    margin-left: 65px;
+    position: relative;
+    bottom: 670px;
+    left: 900px;
+}
+
+.offer{
+    text-align: center;
+    height: 400px;
+    background-color: #241401;
+    letter-spacing: 2px;
+    padding-top: 75px;
+    clear: both;
+    
+}
+
+.offer2{
+    padding-top: 100px;
+    color: white;
+    font-size: 35px;
+}
+
+.zelio{
+   float: left;
+}
+
+.sign{
+    height: 400px;
+    background-color: blanchedalmond;
+    text-align: center;
+    padding-top: 85px;
+    display: block;
+}
+
+.liner{
+    border: solid black;
+    background: linear-gradient(brown,white);
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+.radial{
+    border: solid black;
+    background: radial-gradient(brown,white);
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+.conic{
+    border: solid black;
+    background: conic-gradient(brown,white);
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+.us{
+    height: 380px;
+    background-color: aliceblue;
+    border: solid brown;
+    padding-top: 55px;
+}
+
+.footer{
+    height: 200px;
+    background-color: #241401;
+    color: aliceblue;
+    text-align: center;
+}

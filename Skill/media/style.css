@@ -1,0 +1,190 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    height: 65px;
+    background-color: black;
+    color: azure;
+}
+
+.logo{
+    font-size: 35px;
+    padding-left: 70px;
+    position: relative;
+    top: 10px;
+}
+
+.home{
+    padding-left: 670px;
+}
+
+.nav{
+    padding-left: 2%;
+}
+
+h1{
+    padding-top: 90px;
+    padding-left: 490px;
+}
+
+.tagline{
+    padding-top: 20px;
+    padding-left: 435px;
+    color: #6A6866;
+}
+
+.img1{
+    height: 170px;
+    width: 250px;
+    position: relative;
+    left: 130px;
+    top: 73px;
+    border-radius: 7px;
+}
+
+.h1{
+    position: relative;
+    top: 82px;
+    left: 135px;
+}
+
+.p1{
+    position: relative;
+    top: 90px;
+    left: 135px;
+}
+
+.b1{
+    position: relative;
+    top: 105px;
+    left: 130px;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 8px;   
+}
+
+.img2{
+    height: 170px;
+    width: 250px;
+    position: relative;
+    left: 425px;
+    bottom: 218px;
+    border-radius: 7px;
+}
+
+.h2{
+    position: relative;
+    bottom: 208px;
+    left: 430px;
+}
+
+.p2{
+    position: relative;
+    bottom: 200px;
+    left: 430px;
+}
+
+.b2{
+    position: relative;
+    bottom: 183px;
+    left: 425px;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 8px;   
+}
+
+.img3{
+    height: 170px;
+    width: 250px;
+    position: relative;
+    left: 720px;
+    bottom: 508px;
+    border-radius: 7px;
+}
+
+.h3{
+    position: relative;
+    bottom: 496px;
+    left: 730px;
+}
+
+.p3{
+    position: relative;
+    bottom: 489px;
+    left: 730px;
+}
+
+.b3{
+    position: relative;
+    bottom: 472px;
+    left: 725px;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 8px;   
+}
+
+.img4{
+    height: 170px;
+    width: 250px;
+    position: relative;
+    left: 1013px;
+    bottom: 799px;
+    border-radius: 7px;
+}
+
+.h4{
+    position: relative;
+    bottom: 785px;
+    left: 1019px;
+}
+
+.p4{
+    position: relative;
+    bottom: 778px;
+    left: 1018px;
+}
+
+.b4{
+    position: relative;
+    bottom: 761px;
+    left: 1017px;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 8px;   
+}
+
+.last{
+    height: 220px;
+    background-color: black;
+    position: relative;
+    bottom: 640px;
+}
+
+.chelu{
+    color: white;
+    position: relative;
+    top: 50px;
+    left: 70px;
+}
+
+.chhelu{
+    color: silver;
+    position: relative;
+    top: 70px;
+    left: 66px;
+}
+
+.link{
+    position: relative;
+    bottom: 808px;
+    color: white;
+    
+}
+

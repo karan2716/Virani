@@ -1,0 +1,238 @@
+*{
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    height: 800px;
+    width: 1400px;
+    background-image: url(assets/Mountain\ View\ Garden.avif);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.head{
+    height: 90px;
+    width: 1350px;
+    background-color: #7C766F;
+    position: fixed;
+    left: 25px;
+    top: 25px;
+    z-index: 1;
+}
+
+#logo{
+    position: relative;
+    left: 40px;
+    top: 28px;
+}
+
+.hlink{
+    float: left;
+    position: relative;
+    left: 600px;
+    top: 5px;
+    padding-left: 18px;
+    color: aliceblue;
+}
+
+#hlink{
+    float: left;
+    position: relative;
+    left: 950px;
+    bottom: 15px;
+    border: solid 1px;
+    padding: 9px;
+    border-radius: 20px;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+h1{
+    position: relative;
+    color: aliceblue;
+    top: 350px;
+    left: 350px;
+    text-transform: capitalize;
+    font-size: 90px;
+}
+
+.title{
+    color: aliceblue;
+    position: relative;
+    top: 360px;
+    left: 550px;
+    text-transform: capitalize;
+}
+
+.explore{
+    position: relative;
+    top: 380px;
+    left: 592px;
+    width: 125px;
+    height: auto;
+    background-color: aliceblue;
+    border: solid aliceblue;
+    border-radius: 25px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 5px;
+}
+
+main{
+    position: relative;
+}
+
+h2{
+    position: relative;
+    text-transform: capitalize;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: Bodoni;
+    color: #3B332C;
+}
+
+.us{
+    position: relative;
+    top: 115px;
+    left: 120px;
+}
+
+.story{
+    position: relative;
+    text-transform: capitalize;
+    top: 125px;
+    left: 120px;
+    color: #3B332C;
+    font-weight: 500px;
+}
+
+.fakro{
+    position: relative;
+    top: 30px;
+    left: 820px;
+}
+
+.learn{
+    position: relative;
+    top: 55px;
+    left: 820px;
+    width: 125px;
+    height: auto;
+    border: solid 1px;
+    border-radius: 25px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 5px;
+}
+
+.choose{
+    top: 190px;
+    left: 120px;   
+}
+
+.our{
+    position: relative;
+    text-transform: capitalize;
+    top: 150px;
+    left: 1150px;
+    color: #3B332C;
+    font-weight: 500px;
+}
+
+.chair{
+    position: relative;
+    top: 220px;
+    left: 140px;
+}
+
+.couple{
+    position: relative;
+    bottom: 196px;
+    left: 600px;
+}
+
+.dish{
+    position: relative;
+    bottom: 613px;
+    left: 1055px;
+}
+
+.testimonials{
+    position: relative;
+    bottom: 490px;
+    left: 120px;
+}
+
+.p2{
+    position: relative;
+    left: 470px;
+    bottom: 130px;
+}
+
+.p3{
+    position: relative;
+    left: 955px;
+    bottom: 255px;
+}
+
+.contect{
+    position: relative;
+    bottom: 660px;
+    left: 120px;
+}
+
+.p4{
+    position: relative;
+    top: 20px;
+}
+
+.p5{
+    position: relative;
+    left: 960px;
+    bottom: 62px;
+}
+
+.sofa{
+    position: relative;
+    bottom: 520px;
+    left: 210px;
+    
+}
+
+.last{
+    position: relative;
+    bottom: 400px;
+    left: 120px;
+}
+
+.insta{
+    position: relative;
+    left: 850px;
+    bottom: 240px;
+}
+
+.face{
+    position: relative;
+    left: 850px;
+    bottom: 241px;
+}
+
+.policy{
+    position: relative;
+    left: 850px;
+    bottom: 210px;
+}
+
+.acc{
+    position: relative;
+    left: 850px;
+    bottom: 210px;
+}
+
+.puru{
+    position: relative;
+    left: 850px;
+    bottom: 110px;
+}
