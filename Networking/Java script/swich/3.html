@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        a = parseFloat(prompt("Enter first value"));
+        b = parseFloat(prompt("Enter second value"));
+        c = prompt("Which opration you want (e.g. +,-,*,/)");
+
+        switch (c) {
+            case "+":
+                document.write("Addition is:"); document.write(a + b);
+                break;
+
+            case "-":
+                document.write("subtraction is:"); document.write(a - b);
+                break;
+
+            case "*":
+                document.write("multiplication is:"); document.write(a * b);
+                break;
+
+            case "/":
+                document.write("division is:"); document.write(a / b);
+                break;
+        
+            default:
+                break;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        a = parseInt(prompt("Enter first subject mark"));
+        b = parseInt(prompt("Enter second subject mark"));
+        c = parseInt(prompt("Enter third subject mark"));
+        d = parseInt(prompt("Enter fourth subject mark"));
+
+        total = a+b+c+d;
+        percentage = total/4;
+
+        if(a >= 33 && b >= 33 && c >= 33 && d >= 33){
+            document.write("You are Pass"+"<br>");
+            document.write("Total marks:"+total +"<br>");
+            document.write("Percentage:"+percentage +"<br>");
+
+            if(percentage >=33 && percentage <= 50){
+                document.write("Third class");
+            }
+
+            else if(percentage >= 51 && percentage <= 80){
+                document.write("Second class");
+            }
+
+            else if(percentage >= 81 && percentage <= 100){
+                document.write("Third class");
+            }
+        }
+
+        else{
+            document.write("Sorry You are Fail");
+        }
+    </script>
+</body>
+</html>
