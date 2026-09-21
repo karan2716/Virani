@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function Addition(){
+            First = parseFloat(mini.first.value);
+            Second = parseFloat(mini.second.value);
+            document.write(First+Second);
+        }
+
+        function Subtraction(){
+            First = parseFloat(mini.first.value);
+            Second = parseFloat(mini.second.value);
+            document.write(First-Second);
+        }
+
+        function Multiplication(){
+            First = parseFloat(mini.first.value);
+            Second = parseFloat(mini.second.value);
+            document.write(First*Second);
+        }
+
+        function Division(){
+            First = parseFloat(mini.first.value);
+            Second = parseFloat(mini.second.value);
+            document.write(First/Second);
+        }
+        
+    </script>
+</head>
+<body>
+    <form name="mini">
+        <label for="first">Enter first Number:</label>
+        <input type="number" name="first"><br><br>
+        <label for="last">Enter last Number:</label>
+        <input type="number" name="second">
+        <input type="button" name="btn1" value="addition" onclick="Addition()">
+        <input type="button" name="btn2" value="subtraction" onclick="Subtraction()">
+        <input type="button" name="btn3" value="multiplication" onclick="Multiplication()">
+        <input type="button" name="btn4" value="division" onclick="Division()">
+    </form>
+</body>
+</html>
