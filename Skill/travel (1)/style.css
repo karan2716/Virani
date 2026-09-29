@@ -1,0 +1,95 @@
+.head{
+    height: 60px;
+    width: 100%;
+    background-color: whitesmoke;
+    
+}
+
+h1{
+    color: green;
+    position: relative;
+    left: 100px;
+    top: 9px;
+}
+
+.container{
+    display: flex;
+}
+
+a{
+    display: flex;
+    position: relative;
+    left: 500px;
+    bottom: 40px;
+    text-decoration: none;
+    color: gray;
+}
+
+button{
+    position: relative;
+    left: 1150px;
+    bottom: 67px;
+    padding: 10px;
+}
+
+img{
+    position: fixed;
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+}
+
+.first{
+    position: relative;
+    top: 117px;
+    left: 100px;
+    color: goldenrod;
+    text-transform: capitalize;
+}
+
+.second{
+    position: relative;
+    top: 75px;
+    left: 95px;
+    font-size: 45px;
+    color: aliceblue;
+}
+
+.third{
+    position: relative;
+    font-size: 45px;
+    color: goldenrod;
+    top: 31px;
+    left: 95px;
+}
+
+.fourth{
+    position: relative;
+    color: aliceblue;
+    left: 95px;
+    top: 5px;
+}
+
+.fifth{
+    background-color: goldenrod;
+    color: black;
+    padding: 15px;
+    border-radius: 8px;
+    position: relative;
+    left: 98px;
+    top: 15px;
+}
+
+.sixth{
+    position: relative;
+    left: 100px;
+    top: 20px;
+    color: goldenrod;
+}
+
+.seven{
+    position: relative;
+    left: 230px;
+    bottom: 35px;
+    color: goldenrod;
+}
