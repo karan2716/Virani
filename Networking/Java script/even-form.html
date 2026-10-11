@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function check(){
+            a = parseFloat(even_odd.num.value);
+            b = a%2;
+
+            if(b == 0){
+                document.write("Even");
+            }
+            else{
+                document.write("odd");
+            }
+        }
+    </script>
+</head>
+<body>
+    <form name="even_odd">
+        <input type="number" name="num"><br>
+        <input type="button" onclick="check()" value="click">
+    </form>
+</body>
+</html>
